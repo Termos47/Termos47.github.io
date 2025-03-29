@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Великая Отечественная война</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Фиксированная панель навигации -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">Великая Отечественная война</a>
+            <div class="nav-links">
+                <a href="#heroes">Герои</a>
+                <a href="#history">История</a>
+                <a href="#battles">Сражения</a>
+                <a href="#gallery">Галерея</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная страница (Hero Section) -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Великая Отечественная война</h1>
+            <p>1941–1945: Подвиги, героизм и победа советского народа.</p>
+            <a href="#heroes" class="btn">Узнать больше</a>
+        </div>
+    </section>
+
+<!-- Раздел "Герои" -->
+<section id="heroes" class="heroes">
+    <div class="container">
+        <h2>Герои Великой Отечественной войны</h2>
+        <div class="heroes-grid">
+            <div class="hero-card" data-group="1">
+                <img src="assets/-35 (1).jpg" alt="Зоя Космодемьянская">
+                <h3>Зоя Космодемьянская</h3>
+                <p>Партизанка, первая женщина — Герой Советского Союза.</p>
+            </div>
+            <div class="hero-card" data-group="1">
+                <img src="assets/jxdu5JEBdSY (1).jpg" alt="Александр Матросов">
+                <h3>Александр Матросов</h3>
+                <p>Закрыл своим телом амбразуру вражеского дзота.</p>
+            </div>
+            <div class="hero-card" data-group="1">
+                <img src="assets/Lyudmila_Mykhailivna_Pavlichenko (1).jpg" alt="Людмила Павличенко">
+                <h3>Людмила Павличенко</h3>
+                <p>Снайпер, уничтожила 309 вражеских солдат.</p>
+            </div>
+            <div class="hero-card" data-group="2">
+                <img src="assets/post-16-1275902223 (1).jpg" alt="Иван Кожедуб">
+                <h3>Иван Кожедуб</h3>
+                <p>Летчик-ас, сбил 64 вражеских самолета.</p>
+            </div>
+            <div class="hero-card" data-group="2">
+                <img src="assets/scale_1200 (1).jpg" alt="Василий Зайцев">
+                <h3>Василий Зайцев</h3>
+                <p>Снайпер, уничтожил более 200 вражеских солдат.</p>
+            </div>
+            <div class="hero-card" data-group="2">
+                <img src="assets/sqjbE197Crc (1).jpg" alt="Константин Рокоссовский">
+                <h3>Константин Рокоссовский</h3>
+                <p>Маршал Советского Союза, командующий фронтами.</p>
+            </div>
+        </div>
+        <div class="pagination">
+            <button class="pagination-btn prev-btn" disabled>
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="pagination-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Раздел "История" -->
+<section id="history" class="history">
+    <div class="container">
+        <h2>История Великой Отечественной войны</h2>
+        <div class="history-grid">
+            <div class="history-item">
+                <h3>1. Начало войны и первоначальные поражения</h3>
+                <p>Нападение Германии и ее союзников на СССР 22 июня 1941 года привело к быстрому продвижению немецких войск и оккупации значительных территорий.</p>
+            </div>
+            <div class="history-item">
+                <h3>2. Оборона крупных городов</h3>
+                <p>Битвы за Ленинград и Москву стали важными событиями, где советские войска смогли остановить немецкое наступление и сохранить стратегические города.</p>
+            </div>
+            <div class="history-item">
+                <h3>3. Контрнаступление под Москвой</h3>
+                <p>Зимой 1941/42 года советские войска провели успешное контрнаступление под Москвой, что стало началом перехода инициативы к СССР.</p>
+            </div>
+            <div class="history-item">
+                <h3>4. Коренной перелом: Сталинград и Курская битвы</h3>
+                <p>Сталинградская и Курская битвы стали решающими сражениями, где советские войска одержали полную победу над немецкой армией.</p>
+            </div>
+            <div class="history-item">
+                <h3>5. Освобождение территории СССР и продвижение в Европу</h3>
+                <p>После Сталинграда и Курской битв советские войска начали освобождать советскую территорию и продвигаться в Европу, освобождая страны от нацистской оккупации.</p>
+            </div>
+            <div class="history-item">
+                <h3>6. Финальное наступление и победа</h3>
+                <p>Берлинская операция завершилась безоговорочной капитуляцией Германии 9 мая 1945 года, что ознаменовало полный разгром немецкой армии и освобождение Европы от нацистской оккупации.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Раздел "Сражения" -->
+    <section id="battles" class="battles">
+        <div class="container">
+            <h2>Важные сражения</h2>
+            <div class="battles-grid">
+                <div class="battle-card">
+                    <h3>Битва за Москву</h3>
+                    <p>1941–1942: Первое крупное поражение вермахта.</p>
+                    <ul>
+                        <li>Контрнаступление Красной Армии.</li>
+                        <li>Разгром немецких войск под Москвой.</li>
+                        <li>Перелом в войне.</li>
+                    </ul>
+                </div>
+                <div class="battle-card">
+                    <h3>Сталинградская битва</h3>
+                    <p>1942–1943: Переломный момент в войне.</p>
+                    <ul>
+                        <li>Окружение и разгром 6-й армии вермахта.</li>
+                        <li>Начало коренного перелома в войне.</li>
+                        <li>Символ стойкости советских войск.</li>
+                    </ul>
+                </div>
+                <div class="battle-card">
+                    <h3>Курская битва</h3>
+                    <p>1943: Крупнейшее танковое сражение.</p>
+                    <ul>
+                        <li>Сражение под Прохоровкой.</li>
+                        <li>Окончательный перелом в войне.</li>
+                        <li>Начало наступления Красной Армии.</li>
+                    </ul>
+                </div>
+                <div class="battle-card">
+                    <h3>Берлинская операция</h3>
+                    <p>1945: Штурм Берлина, окончание войны.</p>
+                    <ul>
+                        <li>Штурм Берлина — апрель–май 1945 года.</li>
+                        <li>Капитуляция Германии.</li>
+                        <li>Окончание Великой Отечественной войны.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Раздел "Галерея" -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2>Галерея</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/gallery/04.jpg" alt="Фото 1">
+                <div class="overlay">Берлинское сражение</div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery/DSC03464.jpg" alt="Фото 2">
+                <div class="overlay">Курская битва</div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery/img10.jpg" alt="Фото 3">
+                <div class="overlay">Битва за Москву</div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/gallery/scale_1200 (2).jpg" alt="Фото 4">
+                <div class="overlay">СТалинградская битва</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="scrollToTop" class="scroll-to-top">↑</button>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
