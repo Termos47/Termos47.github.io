@@ -8,8 +8,8 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 import asyncio
 
 # Настройки
-API_TOKEN = '7914747184:AAGrMX61goPxd-K8UkE7uYapQ7Pg7-dDHX8'
-WEB_APP_URL = 'https://termos47.github.io/'
+API_TOKEN = ''
+WEB_APP_URL = ''
 SUBSCRIPTIONS = set()  # Временное хранилище (замените на БД)
 
 # Инициализация
