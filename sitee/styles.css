@@ -10,7 +10,8 @@ body {
 }
 
 .container0{
-    position: relative;
+    flex-direction: row;
+    position: flex-box;
     text-align: center;
 }
 
