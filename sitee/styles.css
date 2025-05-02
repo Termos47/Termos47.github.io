@@ -88,13 +88,6 @@ body {
     font-size: 1rem;
 }
 
-<<<<<<< HEAD
-.button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(66, 66, 66);
-}
-=======
-    button:hover {
+button:hover {
     background-color: #535353;
-}}
->>>>>>> 7292cd7f267d7348bb9058b415a4fb20d095698f
+}
