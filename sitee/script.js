@@ -4,7 +4,7 @@ const title = document.getElementById('title');
 const body = document.body;
 
 // Массив цветов для фона
-const colors = ['#000000', '#ffffff',];
+const colors = ['#666666', '#000000',];
 
 // Функция для изменения цвета
 function changeBackgroundColor() {

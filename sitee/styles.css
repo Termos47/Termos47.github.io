@@ -1,21 +1,52 @@
 /* Базовые стили */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 1vh;
     padding: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #f8f9fa;
+    background-color: #aaaaaa;
     transition: background-color 0.3s; /* Анимация для фона */
 }
 
 .container0{
     position: relative;
-    text-align: left;
     flex-direction: row;
     text-align: center;
+}
 
+.input0{
+    width: 50vh;      /* Фиксированная ширина */
+    height: 3vh;      /* Фиксированная высота */
+    font-size: 2vh;   /* Размер шрифта */
+    padding: 0.5vh;      /* Внутренние отступы */
+    font-style: italic;
+    color:#2c3e50;
+    background-color: floralwhite;
+    border: 0.5vh solid rgb(66, 66, 66);
+    border-radius: 50px;
+}
+
+.input:hover{
+    color: rgb(223, 28, 28);
+}
+
+.input1{
+    width: 30vh;      /* Фиксированная ширина */
+    height: 3vh;      /* Фиксированная высота */
+    font-size: 2vh;   /* Размер шрифта */
+    padding: 0.5vh;      /* Внутренние отступы */
+    font-style: italic;
+    color:#2c3e50;
+    background-color: floralwhite;
+    border: 0.5vh solid rgb(66, 66, 66);
+    border-radius: 50px;
+}
+
+.input:hover{
+    color: rgb(223, 28, 28);
 }
 
 #title {
@@ -23,23 +54,41 @@ body {
 }
 
 .container1{
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex; /* Включаем flex-контейнер */
+    gap: 20px; /* Расстояние между секциями */
+    padding: 20px;
+}
+
+.box1{
+    flex: 1; /* Равное распределение пространства */
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 25px;
     text-align: center;
 }
 
-button {
+.box2{
+    flex: 1; /* Равное распределение пространства */
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 25px;
+}
+
+.button {
     padding: 1vh 2.5vh;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1vh;
+    margin-right: 1vh;
     background-color: #696969;
     color: rgb(255, 255, 255);
-    border: none;
+    border: 0.5vh solid rgb(66, 66, 66);
     border-radius: 50px;
     cursor: pointer;
     font-size: 1.5vh;
-    font-size: 16px;
+    font-size: medium;
+    font-size: 1rem;
+}
 
-    button:hover {
-    background-color: #535353;
-}}
+.button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 66, 66);
+}
