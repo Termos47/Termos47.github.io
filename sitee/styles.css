@@ -18,10 +18,10 @@ body {
 }
 
 .input0{
-    width: 50vh;      /* Фиксированная ширина */
-    height: 3vh;      /* Фиксированная высота */
-    font-size: 2vh;   /* Размер шрифта */
-    padding: 0.5vh;      /* Внутренние отступы */
+    width: 70%;
+    height: 15px;
+    font-size: 2vh;
+    padding: 0.5vh;
     font-style: italic;
     color:#2c3e50;
     background-color: floralwhite;
@@ -34,10 +34,10 @@ body {
 }
 
 .input1{
-    width: 30vh;      /* Фиксированная ширина */
-    height: 3vh;      /* Фиксированная высота */
-    font-size: 2vh;   /* Размер шрифта */
-    padding: 0.5vh;      /* Внутренние отступы */
+    width: 15%;
+    height: 15px;
+    font-size: 2vh;
+    padding: 0.5vh;
     font-style: italic;
     color:#2c3e50;
     background-color: floralwhite;
