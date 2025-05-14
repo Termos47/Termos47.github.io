@@ -18,7 +18,7 @@ body {
 }
 
 .input0{
-    width: 50vh;      /* Фиксированная ширина */
+    width: 40%;      /* Фиксированная ширина */
     height: 3vh;      /* Фиксированная высота */
     font-size: 2vh;   /* Размер шрифта */
     padding: 0.5vh;      /* Внутренние отступы */
@@ -34,7 +34,8 @@ body {
 }
 
 .input1{
-    width: 30vh;      /* Фиксированная ширина */
+    flex-grow: 1;
+    width: 90%;      /* Фиксированная ширина */
     height: 3vh;      /* Фиксированная высота */
     font-size: 2vh;   /* Размер шрифта */
     padding: 0.5vh;      /* Внутренние отступы */
@@ -59,8 +60,15 @@ body {
     padding: 20px;
 }
 
+.saki{
+    flex: auto;
+    width: 80%;
+    height: 70%;
+}
+
 .box1{
-    flex: 1; /* Равное распределение пространства */
+    width: 10vh;
+    flex: 1; 
     padding: 20px;
     background: #f0f0f0;
     border-radius: 25px;
@@ -68,9 +76,19 @@ body {
 }
 
 .box2{
-    flex: 1; /* Равное распределение пространства */
+    width: 10vh;
+    flex: 1;
     padding: 20px;
     background: #f0f0f0;
+    border-radius: 25px;
+}
+
+.box3{
+    width: 10vh;
+    height: 10px;
+    flex: 1;
+    padding: 80px;
+    background: #3d3d3d;
     border-radius: 25px;
 }
 
@@ -90,4 +108,10 @@ body {
 
 button:hover {
     background-color: #535353;
+}
+
+.text_for_mark{
+    color: rgb(172, 0, 0);
+    background-color: aquamarine;
+    padding: 30%;
 }
