@@ -11,87 +11,6 @@ body {
     transition: background-color 0.3s; /* Анимация для фона */
 }
 
-.container0{
-    position: relative;
-    flex-direction: row;
-    text-align: center;
-}
-
-.input0{
-    width: 50vh;      /* Фиксированная ширина */
-    height: 3vh;      /* Фиксированная высота */
-    font-size: 2vh;   /* Размер шрифта */
-    padding: 0.5vh;      /* Внутренние отступы */
-    font-style: italic;
-    color:#2c3e50;
-    background-color: floralwhite;
-    border: 0.5vh solid rgb(66, 66, 66);
-    border-radius: 50px;
-}
-
-.input:hover{
-    color: rgb(223, 28, 28);
-}
-
-.input1{
-    flex-grow: 1;
-    width: 90%;      /* Фиксированная ширина */
-    height: 3vh;      /* Фиксированная высота */
-    font-size: 2vh;   /* Размер шрифта */
-    padding: 0.5vh;      /* Внутренние отступы */
-    font-style: italic;
-    color:#2c3e50;
-    background-color: floralwhite;
-    border: 0.5vh solid rgb(66, 66, 66);
-    border-radius: 50px;
-}
-
-.input:hover{
-    color: rgb(223, 28, 28);
-}
-
-#title {
-    color: #2c3e50;
-}
-
-.container1{
-    display: flex; /* Включаем flex-контейнер */
-    gap: 20px; /* Расстояние между секциями */
-    padding: 20px;
-}
-
-.saki{
-    flex: auto;
-    width: 80%;
-    height: 70%;
-}
-
-.box1{
-    width: 10vh;
-    flex: 1;
-    padding: 20px;
-    background: #f0f0f0;
-    border-radius: 25px;
-    text-align: center;
-}
-
-.box2{
-    width: 10vh;
-    flex: 1;
-    padding: 20px;
-    background: #f0f0f0;
-    border-radius: 25px;
-}
-
-.box3{
-    width: 10vh;
-    height: 10px;
-    flex: 1;
-    padding: 80px;
-    background: #3d3d3d;
-    border-radius: 25px;
-}
-
 .button {
     padding: 1vh 2.5vh;
     margin-left: 1vh;
@@ -108,10 +27,4 @@ body {
 
 button:hover {
     background-color: #535353;
-}
-
-.text_for_mark{
-    color: rgb(172, 0, 0);
-    background-color: aquamarine;
-    padding: 30%;
 }
